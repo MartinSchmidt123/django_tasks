@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  django_tasks:
+    image: "private-data/django_tasks"
+    build:
+      context: "."
+    ports:
+      - 8000:8000
